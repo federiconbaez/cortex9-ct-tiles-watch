@@ -1,0 +1,36 @@
+{
+  "budget_s": 60,
+  "checkpoint": {
+    "root": "gB3H9e3KfbnbU4i1vpr+/a508GF/TEs6f75rua4fBoc=",
+    "size": 1025086327
+  },
+  "controls": {
+    "tampered_entry_rejected": true
+  },
+  "derived": {
+    "hours_to_read_whole_log": 344.3126738400637,
+    "note": "derived from the measured rate; sequential single connection; not measured end to end",
+    "seconds_to_absorb_one_hour_of_growth": 80.36472430168268,
+    "throughput_over_growth": 44.79577365917278
+  },
+  "dns_names": 3897,
+  "entries": 2048,
+  "entries_per_s": 826.9988983231898,
+  "errors": [],
+  "first_tile": 4004235,
+  "growth_entries_per_s": 18.46153846153846,
+  "http": {
+    "bytes_decoded": 4097861,
+    "errors": [],
+    "requests": 22
+  },
+  "log": "Geomys Tuscolo2026h2",
+  "monitoring_url": "https://tuscolo2026h2.skylight.geomys.org/",
+  "name_parse_errors": 0,
+  "precert_entries": 1101,
+  "started_unix_ms": 1793248906805,
+  "stopped": null,
+  "tiles_done": 8,
+  "tiles_requested": 8,
+  "wall_s": 2.4764240969999998
+}

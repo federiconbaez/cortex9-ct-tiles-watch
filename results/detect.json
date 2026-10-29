@@ -1,0 +1,533 @@
+{
+  "candidates": 17,
+  "checkpoints": [
+    {
+      "origin": "log.sycamore.ct.letsencrypt.org/2026h2",
+      "root": "ThnRnfVUey6yVLZh0iVyFR8dJAOh0AqnYfJLZOCKLrM=",
+      "size": 1048047117
+    },
+    {
+      "origin": "log.willow.ct.letsencrypt.org/2026h2",
+      "root": "jgx3se7/QUcGz42GorL6W6htLlV0ySF6bgCu2UnwmSw=",
+      "size": 1005443919
+    },
+    {
+      "origin": "gouda2026h2.log.ct.ipng.ch",
+      "root": "XeeMM6mZPCCmlb42sppjiNpL9TYz6SV+4uKuYolPch4=",
+      "size": 1233914016
+    },
+    {
+      "origin": "halloumi2027h1.log.ct.ipng.ch",
+      "root": "EEXzxgI5AEPBFJLcuYkH28Gi5KaeIO5fXlsaIAKzcAM=",
+      "size": 296762179
+    },
+    {
+      "origin": "log.sycamore.ct.letsencrypt.org/2027h1",
+      "root": "bQK/48Mq1D3P2VjlbbNyM/O9xV+lxfKL5bLlP5eO0oU=",
+      "size": 832205246
+    },
+    {
+      "origin": "halloumi2026h2a.log.ct.ipng.ch",
+      "root": "Q0H/Iz8lWAcEabEijPim/BbZTvNhFcR/iV96x9wtTAE=",
+      "size": 1274447200
+    },
+    {
+      "origin": "gouda2027h1.log.ct.ipng.ch",
+      "root": "7YCXkgY+ru1sMKzuhn3ofk+EO+ok/e4oCxHB9Z0igM8=",
+      "size": 255725978
+    },
+    {
+      "origin": "log.willow.ct.letsencrypt.org/2027h1",
+      "root": "fBmguC3Zn2xjfMtjON3C6BuqOR9rM3wDg2bHf5BsfME=",
+      "size": 826383665
+    },
+    {
+      "origin": "tuscolo2026h2.sunlight.geomys.org",
+      "root": "fBIsFRIurbUPams+z1mE33K9sj16LPmaQh09TlV5C9A=",
+      "size": 1025080674
+    }
+  ],
+  "crtsh_failures": [
+    {
+      "domain": "debian.org",
+      "error": "HTTP 502",
+      "stage": "query"
+    },
+    {
+      "domain": "kernel.org",
+      "error": "HTTP 404",
+      "id": 29994158485,
+      "stage": "der"
+    },
+    {
+      "domain": "archlinux.org",
+      "error": "HTTP 404",
+      "id": 30052775297,
+      "stage": "der"
+    },
+    {
+      "domain": "archlinux.org",
+      "error": "HTTP 404",
+      "id": 30043964854,
+      "stage": "der"
+    },
+    {
+      "domain": "archlinux.org",
+      "error": "HTTP 404",
+      "id": 30020228229,
+      "stage": "der"
+    },
+    {
+      "domain": "archlinux.org",
+      "error": "HTTP 404",
+      "id": 30018883913,
+      "stage": "der"
+    },
+    {
+      "domain": "torproject.org",
+      "error": "HTTP 404",
+      "id": 30049097577,
+      "stage": "der"
+    },
+    {
+      "domain": "torproject.org",
+      "error": "HTTP 404",
+      "id": 30025417921,
+      "stage": "der"
+    },
+    {
+      "domain": "torproject.org",
+      "error": "HTTP 404",
+      "id": 29997250588,
+      "stage": "der"
+    },
+    {
+      "domain": "torproject.org",
+      "error": "HTTP 404",
+      "id": 29957071817,
+      "stage": "der"
+    },
+    {
+      "domain": "torproject.org",
+      "error": "HTTP 404",
+      "id": 29957035243,
+      "stage": "der"
+    },
+    {
+      "domain": "torproject.org",
+      "error": "HTTP 404",
+      "id": 29947962404,
+      "stage": "der"
+    },
+    {
+      "domain": "eff.org",
+      "error": "HTTP 404",
+      "id": 30053325306,
+      "stage": "der"
+    },
+    {
+      "domain": "eff.org",
+      "error": "HTTP 404",
+      "id": 30052725371,
+      "stage": "der"
+    },
+    {
+      "domain": "python.org",
+      "error": "HTTP 404",
+      "id": 29895428814,
+      "stage": "der"
+    },
+    {
+      "domain": "python.org",
+      "error": "HTTP 404",
+      "id": 29860331038,
+      "stage": "der"
+    },
+    {
+      "domain": "python.org",
+      "error": "HTTP 404",
+      "id": 29858142020,
+      "stage": "der"
+    },
+    {
+      "domain": "python.org",
+      "error": "HTTP 404",
+      "id": 29856488622,
+      "stage": "der"
+    },
+    {
+      "domain": "rust-lang.org",
+      "error": "HTTP 502",
+      "stage": "query"
+    },
+    {
+      "domain": "gnu.org",
+      "error": "HTTP 502",
+      "stage": "query"
+    }
+  ],
+  "der_cap": 12,
+  "detected": 15,
+  "detected_pct": 88.23529411764706,
+  "domains": [
+    "debian.org",
+    "kernel.org",
+    "archlinux.org",
+    "torproject.org",
+    "eff.org",
+    "python.org",
+    "rust-lang.org",
+    "gnu.org"
+  ],
+  "http": {
+    "crtsh_bytes": 324779,
+    "crtsh_requests": 69,
+    "ct_bytes": 6858969,
+    "ct_requests": 153
+  },
+  "lookalike_false_hits": 0,
+  "negative_domains": [
+    {
+      "crtsh_ids": 0,
+      "domain": "ct-tiles-watch-nonexistent.invalid",
+      "error": null
+    }
+  ],
+  "neighbour_false_matches": 0,
+  "per_domain": [
+    {
+      "crtsh": "failed",
+      "domain": "debian.org"
+    },
+    {
+      "candidates": 5,
+      "crtsh_unexpired_ids": 145,
+      "der_failed": 1,
+      "der_tried": 7,
+      "detected": 5,
+      "domain": "kernel.org",
+      "no_tiled_sct": 1
+    },
+    {
+      "candidates": 1,
+      "crtsh_unexpired_ids": 101,
+      "der_failed": 4,
+      "der_tried": 12,
+      "detected": 1,
+      "domain": "archlinux.org",
+      "no_tiled_sct": 7
+    },
+    {
+      "candidates": 1,
+      "crtsh_unexpired_ids": 231,
+      "der_failed": 6,
+      "der_tried": 12,
+      "detected": 1,
+      "domain": "torproject.org",
+      "no_tiled_sct": 5
+    },
+    {
+      "candidates": 5,
+      "crtsh_unexpired_ids": 318,
+      "der_failed": 2,
+      "der_tried": 8,
+      "detected": 4,
+      "domain": "eff.org",
+      "no_tiled_sct": 1
+    },
+    {
+      "candidates": 5,
+      "crtsh_unexpired_ids": 82,
+      "der_failed": 4,
+      "der_tried": 11,
+      "detected": 4,
+      "domain": "python.org",
+      "no_tiled_sct": 2
+    },
+    {
+      "crtsh": "failed",
+      "domain": "rust-lang.org"
+    },
+    {
+      "crtsh": "failed",
+      "domain": "gnu.org"
+    }
+  ],
+  "per_domain_cap": 5,
+  "rows": [
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30000872580,
+      "detected": true,
+      "domain": "kernel.org",
+      "error": null,
+      "leaf_index": 116200352,
+      "log": "IPng Networks Halloumi2027h1"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29932274129,
+      "detected": true,
+      "domain": "kernel.org",
+      "error": null,
+      "leaf_index": 650167703,
+      "log": "Let's Encrypt Willow2026h2"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29932263626,
+      "detected": true,
+      "domain": "kernel.org",
+      "error": null,
+      "leaf_index": 650166831,
+      "log": "Let's Encrypt Willow2026h2"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29871163985,
+      "detected": true,
+      "domain": "kernel.org",
+      "error": null,
+      "leaf_index": 968138788,
+      "log": "IPng Networks Halloumi2026h2a"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29854497334,
+      "detected": true,
+      "domain": "kernel.org",
+      "error": null,
+      "leaf_index": 967475123,
+      "log": "IPng Networks Halloumi2026h2a"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30044027269,
+      "detected": true,
+      "domain": "archlinux.org",
+      "error": null,
+      "leaf_index": 544113777,
+      "log": "Let's Encrypt Sycamore2027h1"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29968855982,
+      "detected": true,
+      "domain": "torproject.org",
+      "error": null,
+      "leaf_index": 491604753,
+      "log": "Let's Encrypt Sycamore2027h1"
+    },
+    {
+      "check": null,
+      "crtsh_id": 30057125542,
+      "detected": false,
+      "domain": "eff.org",
+      "error": "HTTP 429",
+      "leaf_index": 954047529,
+      "log": "Geomys Tuscolo2026h2"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 2,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30055928702,
+      "detected": true,
+      "domain": "eff.org",
+      "error": null,
+      "leaf_index": 1142206462,
+      "log": "IPng Networks Gouda2026h2"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30052520096,
+      "detected": true,
+      "domain": "eff.org",
+      "error": null,
+      "leaf_index": 1220763660,
+      "log": "IPng Networks Halloumi2026h2a"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30046848783,
+      "detected": true,
+      "domain": "eff.org",
+      "error": null,
+      "leaf_index": 423054121,
+      "log": "Let's Encrypt Willow2027h1"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30036677549,
+      "detected": true,
+      "domain": "eff.org",
+      "error": null,
+      "leaf_index": 1219392378,
+      "log": "IPng Networks Halloumi2026h2a"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 30036428749,
+      "detected": true,
+      "domain": "python.org",
+      "error": null,
+      "leaf_index": 1141256031,
+      "log": "IPng Networks Gouda2026h2"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 36,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29864800198,
+      "detected": true,
+      "domain": "python.org",
+      "error": null,
+      "leaf_index": 91248903,
+      "log": "IPng Networks Gouda2027h1"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29805700028,
+      "detected": true,
+      "domain": "python.org",
+      "error": null,
+      "leaf_index": 873178242,
+      "log": "Let's Encrypt Sycamore2026h2"
+    },
+    {
+      "check": {
+        "leaf_index_ext_match": true,
+        "lookalike_filter_hit": false,
+        "names": 1,
+        "neighbour_entry_matches": false,
+        "san_filter_hit": true,
+        "serial_match": true,
+        "timestamp_match": true
+      },
+      "crtsh_id": 29788973044,
+      "detected": true,
+      "domain": "python.org",
+      "error": null,
+      "leaf_index": 776708297,
+      "log": "Let's Encrypt Sycamore2026h2"
+    },
+    {
+      "check": null,
+      "crtsh_id": 29732350717,
+      "detected": false,
+      "domain": "python.org",
+      "error": "HTTP 429",
+      "leaf_index": 632294616,
+      "log": "Geomys Tuscolo2026h2"
+    }
+  ],
+  "started_unix_ms": 1793248857674
+}

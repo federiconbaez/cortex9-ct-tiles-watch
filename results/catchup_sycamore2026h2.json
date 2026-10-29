@@ -1,0 +1,36 @@
+{
+  "budget_s": 120,
+  "checkpoint": {
+    "root": "8U4mHBrqYz2hG1WpBhE6uo9lUifiWKmNovM0r7OMhIw=",
+    "size": 1047998299
+  },
+  "controls": {
+    "tampered_entry_rejected": true
+  },
+  "derived": {
+    "hours_to_read_whole_log": 35.11227030222814,
+    "note": "derived from the measured rate; sequential single connection; not measured end to end",
+    "seconds_to_absorb_one_hour_of_growth": 6.947416209375,
+    "throughput_over_growth": 518.1782538293991
+  },
+  "dns_names": 12773,
+  "entries": 8192,
+  "entries_per_s": 8290.852061270385,
+  "errors": [],
+  "first_tile": 4093711,
+  "growth_entries_per_s": 16.0,
+  "http": {
+    "bytes_decoded": 15282758,
+    "errors": [],
+    "requests": 70
+  },
+  "log": "Let's Encrypt Sycamore2026h2",
+  "monitoring_url": "https://mon.sycamore.ct.letsencrypt.org/2026h2/",
+  "name_parse_errors": 0,
+  "precert_entries": 4125,
+  "started_unix_ms": 1793246971601,
+  "stopped": null,
+  "tiles_done": 32,
+  "tiles_requested": 32,
+  "wall_s": 0.988076972
+}

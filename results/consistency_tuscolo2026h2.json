@@ -1,0 +1,122 @@
+{
+  "checkpoints": [
+    {
+      "fetched_unix_ms": 1793248915765,
+      "root": "cCFKm/vPnNCGXxYMatN579lFkzxPfSRtd8fgEFSWZO8=",
+      "size": 1025086566,
+      "timestamp_ms": 1793248915677
+    },
+    {
+      "fetched_unix_ms": 1793248946018,
+      "root": "BTIXqOly/k/RNXRYPu7c0E2diKdJBvIM2XyKyMz1mu8=",
+      "size": 1025087150,
+      "timestamp_ms": 1793248945877
+    },
+    {
+      "fetched_unix_ms": 1793248976267,
+      "root": "rZLOLf/PXAisMWYhbeLD8QeoSfQIGuoDY0/dTU8V2mQ=",
+      "size": 1025088090,
+      "timestamp_ms": 1793248976077
+    },
+    {
+      "fetched_unix_ms": 1793249006681,
+      "root": "YoTMzMlywiTREyfRQ4J94+JotBI7gmMoTIsHQ/46c7c=",
+      "size": 1025088813,
+      "timestamp_ms": 1793249006477
+    },
+    {
+      "fetched_unix_ms": 1793249036929,
+      "root": "OXOPaQ4+HvAGyuStxJ24e8rroVXDkAMQD2u8yfEuD+c=",
+      "size": 1025089950,
+      "timestamp_ms": 1793249036877
+    },
+    {
+      "fetched_unix_ms": 1793249067198,
+      "root": "NIoUnU0LMytQBCu4BntIG/UhWdp7843A+JNOZYocVhs=",
+      "size": 1025090894,
+      "timestamp_ms": 1793249067078
+    }
+  ],
+  "controls": {
+    "forged_root_rejected_by_tiles": true,
+    "tampered_note_rejected": true,
+    "tampered_old_root_rejected": true,
+    "wrong_log_key_rejected": true
+  },
+  "earlier": {
+    "consistent_with_latest": true,
+    "error": null,
+    "root": "m0ViclLQDhwWuQFSTkINI0k9EB86tmx5+WEuHIVo2Qo=",
+    "size": 1025009909,
+    "tiles_fetched": 6
+  },
+  "growth_entries_per_s": 28.586336946255308,
+  "http": {
+    "bytes": 184144,
+    "errors": [
+      "https://tuscolo2026h2.skylight.geomys.org/tile/0/x004/x004/246.p/174: HTTP 404",
+      "https://tuscolo2026h2.skylight.geomys.org/tile/0/x004/x004/250.p/90: HTTP 404"
+    ],
+    "requests": 48
+  },
+  "interval_s": 30,
+  "log": "Geomys Tuscolo2026h2",
+  "monitoring_url": "https://tuscolo2026h2.skylight.geomys.org/",
+  "n_requested": 6,
+  "origin": "tuscolo2026h2.sunlight.geomys.org",
+  "pairs": [
+    {
+      "bytes": 23936,
+      "consistent": true,
+      "error": null,
+      "growth": 584,
+      "ms": 543,
+      "new_size": 1025087150,
+      "old_size": 1025086566,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 24064,
+      "consistent": true,
+      "error": null,
+      "growth": 940,
+      "ms": 544,
+      "new_size": 1025088090,
+      "old_size": 1025087150,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 17408,
+      "consistent": true,
+      "error": null,
+      "growth": 723,
+      "ms": 448,
+      "new_size": 1025088813,
+      "old_size": 1025088090,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 21152,
+      "consistent": true,
+      "error": null,
+      "growth": 1137,
+      "ms": 454,
+      "new_size": 1025089950,
+      "old_size": 1025088813,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 18720,
+      "consistent": true,
+      "error": null,
+      "growth": 944,
+      "ms": 449,
+      "new_size": 1025090894,
+      "old_size": 1025089950,
+      "tiles_fetched": 5
+    }
+  ],
+  "pairs_consistent": 5,
+  "pairs_total": 5,
+  "started_unix_ms": 1793248915765
+}

@@ -1,0 +1,119 @@
+{
+  "checkpoints": [
+    {
+      "fetched_unix_ms": 1793248495587,
+      "root": "g+xrAX92kT8ITVKPBAA417iM+PSl40+MtOVzjx/9ScU=",
+      "size": 1048039423,
+      "timestamp_ms": 1793248495275
+    },
+    {
+      "fetched_unix_ms": 1793248525635,
+      "root": "0N2i6yxZnb5XKVaSvbe/hwTq6QlTyOXcNK3eFt3s5Uw=",
+      "size": 1048040250,
+      "timestamp_ms": 1793248525275
+    },
+    {
+      "fetched_unix_ms": 1793248555694,
+      "root": "TPXHKqhUCZJy7SsQlXZ8qJZ70TRe0Hbzvz62pQo5dr0=",
+      "size": 1048041196,
+      "timestamp_ms": 1793248555275
+    },
+    {
+      "fetched_unix_ms": 1793248585746,
+      "root": "NYjtS9qVaGuwtFhPpNyEhJjtmpYWom+mFiU2PSozc7E=",
+      "size": 1048042062,
+      "timestamp_ms": 1793248585275
+    },
+    {
+      "fetched_unix_ms": 1793248615806,
+      "root": "AzyvoM39mYWczoGUcY0eIx8zKZ3ZLgmQUYz+HCOOESA=",
+      "size": 1048042938,
+      "timestamp_ms": 1793248615275
+    },
+    {
+      "fetched_unix_ms": 1793248645860,
+      "root": "8L8aeJVwbl+Dk4eJh6DFlBBzjk/ZQ0M1OdxWyPSdmnY=",
+      "size": 1048043792,
+      "timestamp_ms": 1793248645275
+    }
+  ],
+  "controls": {
+    "forged_root_rejected_by_tiles": true,
+    "tampered_note_rejected": true,
+    "tampered_old_root_rejected": true,
+    "wrong_log_key_rejected": true
+  },
+  "earlier": {
+    "consistent_with_latest": true,
+    "error": null,
+    "root": "KP8E7hfEP6ciW2s7JRP0lGfYMgThoEhLNXCZQzlOFqU=",
+    "size": 1047968710,
+    "tiles_fetched": 6
+  },
+  "growth_entries_per_s": 29.126666666666665,
+  "http": {
+    "bytes": 210464,
+    "errors": [],
+    "requests": 46
+  },
+  "interval_s": 30,
+  "log": "Let's Encrypt Sycamore2026h2",
+  "monitoring_url": "https://mon.sycamore.ct.letsencrypt.org/2026h2/",
+  "n_requested": 6,
+  "origin": "log.sycamore.ct.letsencrypt.org/2026h2",
+  "pairs": [
+    {
+      "bytes": 22592,
+      "consistent": true,
+      "error": null,
+      "growth": 827,
+      "ms": 178,
+      "new_size": 1048040250,
+      "old_size": 1048039423,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 28384,
+      "consistent": true,
+      "error": null,
+      "growth": 946,
+      "ms": 218,
+      "new_size": 1048041196,
+      "old_size": 1048040250,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 23456,
+      "consistent": true,
+      "error": null,
+      "growth": 866,
+      "ms": 140,
+      "new_size": 1048042062,
+      "old_size": 1048041196,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 27008,
+      "consistent": true,
+      "error": null,
+      "growth": 876,
+      "ms": 234,
+      "new_size": 1048042938,
+      "old_size": 1048042062,
+      "tiles_fetched": 5
+    },
+    {
+      "bytes": 21696,
+      "consistent": true,
+      "error": null,
+      "growth": 854,
+      "ms": 203,
+      "new_size": 1048043792,
+      "old_size": 1048042938,
+      "tiles_fetched": 5
+    }
+  ],
+  "pairs_consistent": 5,
+  "pairs_total": 5,
+  "started_unix_ms": 1793248495587
+}

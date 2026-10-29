@@ -5,7 +5,7 @@ use std::cell::{Cell, RefCell};
 use std::io::Read;
 use std::time::{Duration, Instant};
 
-pub const USER_AGENT: &str = "ct-tiles-watch/0.1 (research monitor; small bounded reads)";
+pub const USER_AGENT: &str = "ct-tiles-watch/0.1 (+https://github.com/federiconbaez/cortex9-ct-tiles-watch; 43962066+federiconbaez@users.noreply.github.com)";
 
 pub struct Http {
     agent: ureq::Agent,
@@ -64,6 +64,11 @@ impl Http {
                     if code == 404 {
                         break;
                     }
+                    if code == 429 {
+                        // Skylight asks for a contact UA; still back off loudly.
+                        std::thread::sleep(Duration::from_secs(2 + 2 * attempt as u64));
+                        continue;
+                    }
                 }
                 Err(e) => last = e.to_string(),
             }
@@ -83,6 +88,6 @@ pub struct HttpTiles<'a> {
 impl TileSource for HttpTiles<'_> {
     fn get(&self, path: &str) -> Result<Vec<u8>, String> {
         let url = format!("{}{}", self.prefix, path);
-        crate::fixture::maybe_gunzip(self.http.get(&url, 3)?)
+        crate::fixture::maybe_gunzip(self.http.get(&url, 6)?)
     }
 }
